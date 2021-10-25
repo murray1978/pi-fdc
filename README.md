@@ -47,6 +47,6 @@ take care of that.
 ## Examples
 Taken from smbaker youtube video
 ### Formatting a Floppy Drive
-'sudo python ./fdtool --realtime --pincpu3 --media 360 --disk format'
+`sudo python ./fdtool --realtime --pincpu3 --media 360 --disk format`
 ### Writing to Floppy drive - Disk image
-'sudo '
+`sudo `
