@@ -32,7 +32,7 @@ It's still not perfect, and writing a floppy driver as a user-mode python progra
 thing to do, but you can get a failure rate down to a couple of percent, and the automatic retry will
 take care of that.
 
-##Media
+## Media
        1.44Mb disc use
             144 or pc144 or 14.4 or 1440 or pc1440
         720Kb use
@@ -44,9 +44,9 @@ take care of that.
         111kb use
             111 or pc111
            
-##Examples
+## Examples
 Taken from smbaker youtube video
-###Formatting a Floppy Drive
+### Formatting a Floppy Drive
 sudo python ./fdtool --realtime --pincpu3 --media 360 --disk format
-###Writing to Floppy drive - Disk image
+### Writing to Floppy drive - Disk image
 sudo 
