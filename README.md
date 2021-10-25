@@ -26,8 +26,27 @@ but it makes a difference when combined with the isolcpus kernel option.
 For maximum performance:
 
 * Add `isolcpus=3` to /boot/cmdline.txt
-* Use the `--realtime` and ``--pincpu 3` options.
+* Use the `--realtime` and ``--pincpu 3` options for fdtool.py
 
 It's still not perfect, and writing a floppy driver as a user-mode python program was a pretty silly
 thing to do, but you can get a failure rate down to a couple of percent, and the automatic retry will
 take care of that.
+
+##Media
+       1.44Mb disc use
+            144 or pc144 or 14.4 or 1440 or pc1440
+        720Kb use
+            720 or pc720
+        360Kb use
+          360 or pc360
+        120Kb use
+           120 or pc120
+        111kb use
+            111 or pc111
+           
+##Examples
+Taken from smbaker youtube video
+###Formatting a Floppy Drive
+sudo python ./fdtool --realtime --pincpu3 --media 360 --disk format
+###Writing to Floppy drive - Disk image
+sudo 
