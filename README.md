@@ -26,7 +26,7 @@ but it makes a difference when combined with the isolcpus kernel option.
 For maximum performance:
 
 * Add `isolcpus=3` to /boot/cmdline.txt
-* Use the `--realtime` and ``--pincpu 3` options for fdtool.py
+* Use the `--realtime` and `--pincpu 3` options for fdtool.py
 
 It's still not perfect, and writing a floppy driver as a user-mode python program was a pretty silly
 thing to do, but you can get a failure rate down to a couple of percent, and the automatic retry will
