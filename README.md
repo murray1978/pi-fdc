@@ -50,5 +50,5 @@ Taken from smbaker youtube video
 `sudo python ./fdtool.py --realtime --pincpu3 --media 360 --disk format`
 ### Writing to Floppy drive - Disk image
 ` cat disc.img | sudo python ./fdtool.py --realtime --pincpu 3 --media 360 --disk write`
-## Reading from a floppy drive - Disk image
+### Reading from a floppy drive - Disk image
 ` sudo python ./fdtool.py --realtime --pincpu 3 --meadia 360 --disk read > disc.img`
