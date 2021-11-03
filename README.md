@@ -48,7 +48,9 @@ take care of that.
 Taken from smbaker youtube video
 ### Formatting a Floppy Drive
 `sudo python ./fdtool.py --realtime --pincpu3 --media 360 --disk format`
+### Reading a sector from a floppy drive
+`sudo python ./fdtool.py --realtime --pincpu3 --media 360 read`
 ### Writing to Floppy drive - Disk image
-` cat disc.img | sudo python ./fdtool.py --realtime --pincpu 3 --media 360 --disk write`
+`cat disc.img | sudo python ./fdtool.py --realtime --pincpu 3 --media 360 --disk write`
 ### Reading from a floppy drive - Disk image
-` sudo python ./fdtool.py --realtime --pincpu 3 --meadia 360 --disk read > disc.img`
+`sudo python ./fdtool.py --realtime --pincpu 3 --meadia 360 --disk read > disc.img`
