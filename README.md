@@ -36,6 +36,7 @@ take care of that.
 ### Update system
        `sudo apt-get uppdate && sudo apt-get upgrade`
 ### Install dependencies for smb-pi-lib
+       Not needed for a fresh install
        `sudo apt-get install -y wiringpi python-setuptools pyhton-dev`
 ### Download smb-pi-lib and pi-fdc
        `git clone https://github.com/sbelectronics/smb-pi-lib.git`
