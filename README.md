@@ -32,6 +32,18 @@ It's still not perfect, and writing a floppy driver as a user-mode python progra
 thing to do, but you can get a failure rate down to a couple of percent, and the automatic retry will
 take care of that.
 
+## Installing
+       `sudo apt-get uppdate && sudo apt-get upgrade`
+       
+       `sudo apt-get install -y wiringpi python-setuptools pyhton-dev`
+       
+       `git clone https://github.com/sbelectronics/smb-pi-lib.git`
+       
+       `git clone https://github.com/sbelectronics/pi-fdc.git`
+       
+       `cd smb-pi-lib`
+       make sure you are using python 2
+       
 ## Media
        1.44Mb disc use
             144 or pc144 or 14.4 or 1440 or pc1440
