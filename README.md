@@ -33,16 +33,20 @@ thing to do, but you can get a failure rate down to a couple of percent, and the
 take care of that.
 
 ## Installing
+### Update system
        `sudo apt-get uppdate && sudo apt-get upgrade`
-       
+### Install dependencies for smb-pi-lib
        `sudo apt-get install -y wiringpi python-setuptools pyhton-dev`
-       
+### Download smb-pi-lib and pi-fdc
        `git clone https://github.com/sbelectronics/smb-pi-lib.git`
        
        `git clone https://github.com/sbelectronics/pi-fdc.git`
-       
+### Build and install smb-pi-lib
        `cd smb-pi-lib`
-       make sure you are using python 2
+       `sudo python ./setup.py build'
+       make sure you are using python 2, check with `python --veersion`
+       install the python library
+       `sudo python ./setup.py install`
        
 ## Media
        1.44Mb disc use
